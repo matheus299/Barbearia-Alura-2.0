@@ -107,3 +107,16 @@ a:hover {
         margin: 20px 23px ;
     }
 }
+
+footer {
+    background: url(/imagens/bg.jpg);
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.copyright{
+    color:white;
+    font-size: 0.8em;
+    margin-top: 5px;
+
+}
