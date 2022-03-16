@@ -58,4 +58,32 @@ a:hover {
 
 /*----------------------------------------*/
 /*Produtos*/
+.main-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.produto {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 23px;
+
+
+}
+
+.preço {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
