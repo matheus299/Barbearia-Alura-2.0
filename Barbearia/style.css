@@ -13,14 +13,14 @@ header {
 
 
 }
-h1 img {
+.imagen-logo{
     padding-left: 15vw;
 }
 
 .links {
     padding-right: 15vw;
 }
-.links  ul{
+.nav-links{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +41,7 @@ h1 img {
 a:hover {
     color: yellow;
     text-decoration: underline;
-    transition: ease-in-out 0.4s;
+    transition: ease-in-out 0.2s;
 }
 
 /* deixar responsivo*/
