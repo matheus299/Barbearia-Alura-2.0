@@ -46,22 +46,14 @@ a:hover {
     transition: ease-in-out 0.2s;
 }
 
-/* deixar responsivo*/
-@media (max-width: 600px) {
-    .links ul {
-        flex-direction: column;
-    }
-    li {
-        padding-bottom: 5px;
-    }
-}
-
 /*----------------------------------------*/
+
 /*Produtos*/
 .main-box{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .produto {
@@ -82,8 +74,36 @@ a:hover {
 
 
 }
-
 .preço {
     font-weight: bolder;
     font-size: 1.2em;
+}
+
+.produto:hover {
+    border: 2px solid yellow;
+}
+
+.produto:active {
+    border: 2px  solid green;
+}
+
+/* deixar responsivo*/
+
+@media (max-width: 600px) {
+    /*Parte do Header*/
+    .links ul {
+        flex-direction: column;
+    }
+    li {
+        padding-bottom: 5px;
+    }
+
+    /*Parte do Main*/
+
+    .main-box{
+        flex-direction: column;
+    }
+    .produto {
+        margin: 20px 23px ;
+    }
 }
