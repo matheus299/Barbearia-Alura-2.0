@@ -109,7 +109,7 @@ a:hover {
 }
 
 footer {
-    background: url(/imagens/bg.jpg);
+    background: url(../imagens/bg.jpg);
     text-align: center;
     padding: 40px 0px;
 }
